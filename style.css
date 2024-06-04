@@ -1,0 +1,238 @@
+@media (max-width:640px){
+    .frame{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        display: flex !important;
+        justify-items: center !important;
+    }
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+    height: 124px;
+}
+.frame{
+    margin-left: 47px;
+    margin-right: 47px;
+}
+.brand{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    line-height: 20px;
+    font-weight: 700;
+}
+.version{
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #606164;
+}
+.box-filter{
+    width: 380px;
+    height: 330px;
+    margin-right: 32px;
+    border: 1px solid #CACBCD;
+    border-radius: 4px;
+    padding: 24px;
+}
+.icon{
+    width: 24px !impotant;
+    height: 24px !important;
+}
+.filter{
+    height: 49px;
+    width: 332px;
+}
+
+.stock-search{
+    border: 1px solid #CACBCD;  
+    width: 332px;
+    height: 40px;
+    gap: 4px;
+}
+
+.border{
+    width: 332px;
+    height: 1px;
+    background-color: #f1f1f2;
+}
+.geo{
+    width: 332px;
+    height: 111px;
+}
+.data{
+    width: 332px;
+    height: 54px;
+    padding: 16px 0px 16px 0px;
+    gap: 16px;
+}
+.frame-card{
+    justify-content: space-between;
+    width: 100%;
+}
+.card{
+    width: 252px;
+    height: 417px;
+    border: 1px solid #cacbcd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card-image{
+    width: 252px;
+    height: 189px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 16px;
+    gap: 16px;
+}
+
+.barra{
+    height: 2px;
+    width: 55px;
+    background-color: #f89f1c;
+}
+.price-section{
+    height: 40px;
+}
+.price{
+    font-size: 22px;
+}
+
+.circle{
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cacbcd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.heart {
+	position:relative;
+	width:18px;
+	height:16px;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+}
+.heart:before {
+		content:"";
+		width:9px;
+		height:16px;
+		position:absolute;
+		top:0;
+		left:9px;
+        border:solid 0.5px grey;
+		background:white;
+		border-radius:9px 9px 0 0;
+		-moz-transform:rotate(-45deg);
+		-webkit-transform:rotate(-45deg);
+		-ms-transform:rotate(-45deg);
+		-o-transform:rotate(-45deg);
+		transform:rotate(-45deg);
+		-moz-transform-origin:0 100%;
+		-webkit-transform-origin:0 100%;
+		-ms-transform-origin:0 100%;
+		-o-transform-origin:0 100%;
+		transform-origin:0 100%;
+}
+.heart:after {
+		content:"";
+		width:9px;
+		height:16px;
+		position:absolute;
+		left:0;
+		top:0;
+        border:solid 0.5px grey;
+		background:white;
+		border-radius:9px 9px 0 0;
+		-moz-transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+		-ms-transform:rotate(45deg);
+		-o-transform:rotate(45deg);
+		transform:rotate(45deg);
+		-moz-transform-origin:100% 100%;
+		-webkit-transform-origin:100% 100%;
+		-ms-transform-origin:100% 100%;
+		-o-transform-origin:100% 100%;
+		transform-origin:100% 100%;
+}
+
+.heart.clicked::before,
+.heart.clicked::after {
+        background: orange;
+}   
+  
+.box-consumption{
+    background-color: #f1f1f2;
+    padding: 8px;
+    gap: 4px;
+    width: 220px;
+    height: 66px;
+}
+.measure-filter{
+    width: 100%;
+    height: 122px;
+}
+.measure-unit{
+    width: 100%;
+    height: 54px;
+}
+.unit{
+    width: 100%;
+    height: 68px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.info{
+    width:204px;
+    height:14px;
+    font-size:11px;
+}
+.homologation{
+    width:156px;
+    height:32px;
+    font-size:12px;
+}
+.consumption{
+    color: #606164;
+}
+.button {
+    width: 50%;
+    height: 52px;
+    border: 1px solid #cacbcd;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button-dark{
+    background-color: #313336;
+    color: white;
+}
+
+.button-white{
+    background-color: white;
+    color: #606164;
+}
+h3 {
+    text-align: center;
+}
+.opacity {
+    opacity: 0.5;
+}
